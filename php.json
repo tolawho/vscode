@@ -1,0 +1,130 @@
+{
+	"Die statement": {
+		"prefix": "dl",
+		"body": [
+			"die(__FILE__.':'.__LINE__);"
+		],
+		"description": "'die' statement"
+	},
+	"Print_r statement": {
+		"prefix": "dpr",
+		"body": [
+			"echo '<pre>'.print_r($${1:var}, true).'</pre>';$0"
+		],
+		"description": "'print_r' statement"
+	},
+	"Echo statement": {
+		"prefix": "eco",
+		"body": [
+			"echo \"$1\";$0"
+		],
+		"description": "'echo' statement"
+	},
+	"Include statement": {
+		"prefix": "inc",
+		"body": [
+			"include '$1';$0"
+		],
+		"description": "'include' statement"
+	},
+	"Include once statement": {
+		"prefix": "inco",
+		"body": [
+			"include_once '$1';$0"
+		],
+		"description": "'include_once' statement"
+	},
+	"Foreach statement without key": {
+		"prefix": "fore",
+		"body": [
+			"foreach ($${1:items} as $${2:item}) {\r",
+			"\t$0\r",
+			"}"
+		],
+		"description": "foreach(iterable_expr as $value) {...}"
+	},
+	"Foreach statement with key": {
+		"prefix": "forek",
+		"body": [
+			"foreach ($${1:items} as $${2:key} => $${3:item}) {\r",
+			"\t$0\r",
+			"}"
+		],
+		"description": "foreach(iterable_expr as $key => $value) {...}"
+	},
+	"Private function": {
+		"prefix": "prif",
+		"body": [
+			"private function $1($2){\r",
+			"    $0\r",
+			"}"
+		],
+		"description": "private function"
+	},
+	"Private static function": {
+		"prefix": "prisf",
+		"body": [
+			"private static function $1($2){\r",
+			"    $0\r",
+			"}"
+		],
+		"description": "private static function"
+	},
+	"Proteced function": {
+		"prefix": "prof",
+		"body": [
+			"protected function $1($2){\r",
+			"    $0\r",
+			"}"
+		],
+		"description": "protected function"
+	},
+	"Protected static function": {
+		"prefix": "prosf",
+		"body": [
+			"protected static function $1($2){\r",
+			"    $0\r",
+			"}"
+		],
+		"description": "protected static function"
+	},
+	"Public function": {
+		"prefix": "pubf",
+		"body": [
+			"public function $1($2){\r",
+			"    $0\r",
+			"}"
+		],
+		"description": "public function"
+	},
+	"Public static function": {
+		"prefix": "pubsf",
+		"body": [
+			"public static function $1($2){\r",
+			"    $0\r",
+			"}"
+		],
+		"description": "public static function"
+	},
+	"Require statement": {
+		"prefix": "rqr",
+		"body": [
+			"require '$1';$0"
+		],
+		"description": "'require' statement"
+	},
+	"Require once statement": {
+		"prefix": "rqro",
+		"body": [
+			"require_once '$1';$0"
+		],
+		"description": "'require_once' statement"
+	},
+	"Throw new statement": {
+		"prefix": "thr",
+		"body": [
+			"throw new $0;"
+		],
+		"description": "'throw' new statement"
+	}
+}
