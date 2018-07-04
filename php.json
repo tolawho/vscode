@@ -52,11 +52,20 @@
 		],
 		"description": "foreach(iterable_expr as $key => $value) {...}"
 	},
+	"Function": {
+		"prefix": "fnc",
+		"body": [
+			"function $1($2){\r",
+			"\t$0\r",
+			"}"
+		],
+		"description": "function"
+	},
 	"Private function": {
 		"prefix": "prif",
 		"body": [
 			"private function $1($2){\r",
-			"    $0\r",
+			"\t$0\r",
 			"}"
 		],
 		"description": "private function"
@@ -65,7 +74,7 @@
 		"prefix": "prisf",
 		"body": [
 			"private static function $1($2){\r",
-			"    $0\r",
+			"\t$0\r",
 			"}"
 		],
 		"description": "private static function"
@@ -74,7 +83,7 @@
 		"prefix": "prof",
 		"body": [
 			"protected function $1($2){\r",
-			"    $0\r",
+			"\t$0\r",
 			"}"
 		],
 		"description": "protected function"
@@ -83,7 +92,7 @@
 		"prefix": "prosf",
 		"body": [
 			"protected static function $1($2){\r",
-			"    $0\r",
+			"\t$0\r",
 			"}"
 		],
 		"description": "protected static function"
@@ -92,7 +101,7 @@
 		"prefix": "pubf",
 		"body": [
 			"public function $1($2){\r",
-			"    $0\r",
+			"\t$0\r",
 			"}"
 		],
 		"description": "public function"
@@ -101,7 +110,7 @@
 		"prefix": "pubsf",
 		"body": [
 			"public static function $1($2){\r",
-			"    $0\r",
+			"\t$0\r",
 			"}"
 		],
 		"description": "public static function"
