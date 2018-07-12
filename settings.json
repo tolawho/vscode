@@ -6,9 +6,9 @@
     "markdown.preview.fontSize": 12,
     "terminal.integrated.fontSize": 12,
     "workbench.colorTheme": "Material Theme Darker",
-    "materialTheme.fixIconsRunning": true,
+    "materialTheme.fixIconsRunning": false,
     "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "window.zoomLevel": -0.5,
+    "window.zoomLevel": 1,
     "editor.lineHeight": 25,
     "zenMode.centerLayout": false,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
@@ -18,8 +18,8 @@
     "editor.minimap.showSlider": "mouseover",
     "editor.mouseWheelZoom": true,
     "editor.renderLineHighlight": "gutter",
+    "editor.tabCompletion": true,
     "explorer.openEditors.visible": 0,
-    "workbench.editor.revealIfOpen": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -29,12 +29,20 @@
         "**/.vscode": true,
         "**/.idea": true
     },
-    "workbench.editor.tabCloseButton": "off",
-    "php.validate.executablePath": "C:\\wamp\\bin\\php\\php7.0.10\\php.exe",
-    "workbench.statusBar.visible": false,
-    "editor.tabCompletion": true,
     "files.associations": {
         "*.ctp": "php",
         "*.blade": "php"
-    }
+    },
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.statusBar.visible": false,
+    "php.validate.executablePath": "C:\\wamp\\bin\\php\\php7.2.4\\php.exe",
+    "php.validate.run": "onType",
+    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1530513945094,
+    "php-cs-fixer.onsave": true,
+    "workbench.startupEditor": "welcomePage",
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.copyOnSelection": true,
+    "diffEditor.renderSideBySide": false
 }
