@@ -1,4 +1,12 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "alt+`", "command": "workbench.action.terminal.focusNext" }
+    { "key": "alt+`", "command": "workbench.action.terminal.focusNext" },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "git.stageChange"
+    }
 ]
