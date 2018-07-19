@@ -8,7 +8,7 @@
     "workbench.colorTheme": "Material Theme Darker",
     "materialTheme.fixIconsRunning": false,
     "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": -0.25,
     "editor.lineHeight": 25,
     "zenMode.centerLayout": false,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
@@ -39,10 +39,24 @@
     "php.validate.executablePath": "C:\\wamp\\bin\\php\\php7.2.4\\php.exe",
     "php.validate.run": "onType",
     "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1530513945094,
+    "php-cs-fixer.lastDownload": 1531379002631,
     "php-cs-fixer.onsave": true,
-    "workbench.startupEditor": "welcomePage",
+    "workbench.startupEditor": "newUntitledFile",
     "files.trimTrailingWhitespace": true,
+    "php-docblocker.author": {
+        "name": "Thanh D.",
+        "email": "tolawho@gmail.com"
+    },
     "terminal.integrated.copyOnSelection": true,
-    "diffEditor.renderSideBySide": false
+    "diffEditor.renderSideBySide": false,
+    "emmet.triggerExpansionOnTab": true,
+    "php.executablePath": "C:\\wamp\\bin\\php\\php7.2.4\\php.exe",
+    "editor.rulers": [
+        120
+    ],
+    "todohighlight.isEnable": true,
+    "git.autofetch": true,
+    "window.titleBarStyle": "custom",
+    "workbench.editor.showTabs": false,
+    "workbench.editor.labelFormat": "short"
 }
