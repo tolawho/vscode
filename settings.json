@@ -21,6 +21,7 @@
   "editor.tabCompletion": "on",
   "editor.rulers": [120],
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "markdown.preview.fontSize": 12,
   "zenMode.centerLayout": false,
@@ -45,9 +46,9 @@
   "php.validate.executablePath": "D:\\setup\\php\\php.exe",
   "php.executablePath": "D:\\setup\\php\\php.exe",
   "php.validate.run": "onType",
-  "phpcbf.standard": "PSR2",
-  "phpcbf.executablePath": "phpcbf.bat",
-  "phpcbf.onsave": true,
+  "namespaceResolver.showMessageOnStatusBar": true,
+  "namespaceResolver.sortOnSave": true,
+  "phpSniffer.standard": "PSR2",
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.copyOnSelection": true,
   "diffEditor.renderSideBySide": true,
@@ -69,7 +70,5 @@
   "html-css-class-completion.excludeGlobPattern": "",
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src"
-  },
-  "namespaceResolver.sortOnSave": true,
-  "namespaceResolver.showMessageOnStatusBar": true
+  }
 }
